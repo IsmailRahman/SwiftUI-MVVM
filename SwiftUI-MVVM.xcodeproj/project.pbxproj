@@ -3,10 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E28413E729228B2300E2D744 /* LoginSplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28413E629228B2300E2D744 /* LoginSplashView.swift */; };
+		E28413EA2923294700E2D744 /* FASwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = E28413E92923294700E2D744 /* FASwiftUI */; };
+		E2DD2E26291F823F007D1DC2 /* FirstSplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DD2E25291F823F007D1DC2 /* FirstSplashView.swift */; };
+		E2DD2E282920DEE3007D1DC2 /* SecondSplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DD2E272920DED6007D1DC2 /* SecondSplashView.swift */; };
+		E2DD2E2C29210E38007D1DC2 /* MenuSplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DD2E2B29210E38007D1DC2 /* MenuSplashView.swift */; };
+		E2E3B0A9292339DD00BA53FC /* SwiftUIFontIcon in Frameworks */ = {isa = PBXBuildFile; productRef = E2E3B0A8292339DD00BA53FC /* SwiftUIFontIcon */; };
+		E2E3B0AB29235F2E00BA53FC /* RegisterSplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E3B0AA29235F2E00BA53FC /* RegisterSplashView.swift */; };
 		EC0BD0BF22ADACEE005B9FCC /* AnySubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0BD0BE22ADACEE005B9FCC /* AnySubscription.swift */; };
 		EC4F04DD22AA3BFD0086819B /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4F04DC22AA3BFD0086819B /* APIService.swift */; };
 		EC4F04DF22AA3C170086819B /* APIServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4F04DE22AA3C170086819B /* APIServiceError.swift */; };
@@ -16,7 +23,6 @@
 		EC6D6A9722A86FF900F21E11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6D6A9622A86FF900F21E11 /* SceneDelegate.swift */; };
 		EC6D6A9B22A8700500F21E11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC6D6A9A22A8700500F21E11 /* Assets.xcassets */; };
 		EC6D6A9E22A8700500F21E11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC6D6A9D22A8700500F21E11 /* Preview Assets.xcassets */; };
-		EC6D6AA122A8700500F21E11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6D6A9F22A8700500F21E11 /* LaunchScreen.storyboard */; };
 		EC6D6AAC22A8700500F21E11 /* SwiftUI_MVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6D6AAB22A8700500F21E11 /* SwiftUI_MVVMTests.swift */; };
 		EC6D6ABF22A87B8B00F21E11 /* SearchRepositoryResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6D6ABE22A87B8B00F21E11 /* SearchRepositoryResponse.swift */; };
 		EC6D6AC122A87BB100F21E11 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6D6AC022A87BB100F21E11 /* Repository.swift */; };
@@ -45,6 +51,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E28413E629228B2300E2D744 /* LoginSplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSplashView.swift; sourceTree = "<group>"; };
+		E2DD2E25291F823F007D1DC2 /* FirstSplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSplashView.swift; sourceTree = "<group>"; };
+		E2DD2E272920DED6007D1DC2 /* SecondSplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondSplashView.swift; sourceTree = "<group>"; };
+		E2DD2E2B29210E38007D1DC2 /* MenuSplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSplashView.swift; sourceTree = "<group>"; };
+		E2E3B0AA29235F2E00BA53FC /* RegisterSplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterSplashView.swift; sourceTree = "<group>"; };
 		EC0BD0BE22ADACEE005B9FCC /* AnySubscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnySubscription.swift; sourceTree = "<group>"; };
 		EC4F04DC22AA3BFD0086819B /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		EC4F04DE22AA3C170086819B /* APIServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceError.swift; sourceTree = "<group>"; };
@@ -55,7 +66,6 @@
 		EC6D6A9622A86FF900F21E11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EC6D6A9A22A8700500F21E11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC6D6A9D22A8700500F21E11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		EC6D6AA022A8700500F21E11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC6D6AA222A8700500F21E11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC6D6AA722A8700500F21E11 /* SwiftUI-MVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-MVVMTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC6D6AAB22A8700500F21E11 /* SwiftUI_MVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_MVVMTests.swift; sourceTree = "<group>"; };
@@ -81,6 +91,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2E3B0A9292339DD00BA53FC /* SwiftUIFontIcon in Frameworks */,
+				E28413EA2923294700E2D744 /* FASwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,7 +134,6 @@
 				EC6D6A9422A86FF900F21E11 /* AppDelegate.swift */,
 				EC6D6A9622A86FF900F21E11 /* SceneDelegate.swift */,
 				EC6D6A9A22A8700500F21E11 /* Assets.xcassets */,
-				EC6D6A9F22A8700500F21E11 /* LaunchScreen.storyboard */,
 				EC6D6AA222A8700500F21E11 /* Info.plist */,
 				EC6D6A9C22A8700500F21E11 /* Preview Content */,
 			);
@@ -156,6 +167,11 @@
 				EC6D6AC422A88E1500F21E11 /* RepositoryListView.swift */,
 				EC6D6AC822A88E9000F21E11 /* RepositoryListRow.swift */,
 				EC6D6ACC22A8930B00F21E11 /* RepositoryDetailView.swift */,
+				E2DD2E25291F823F007D1DC2 /* FirstSplashView.swift */,
+				E2DD2E272920DED6007D1DC2 /* SecondSplashView.swift */,
+				E2DD2E2B29210E38007D1DC2 /* MenuSplashView.swift */,
+				E28413E629228B2300E2D744 /* LoginSplashView.swift */,
+				E2E3B0AA29235F2E00BA53FC /* RegisterSplashView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -209,6 +225,10 @@
 			dependencies = (
 			);
 			name = "SwiftUI-MVVM";
+			packageProductDependencies = (
+				E28413E92923294700E2D744 /* FASwiftUI */,
+				E2E3B0A8292339DD00BA53FC /* SwiftUIFontIcon */,
+			);
 			productName = "SwiftUI-MVVM";
 			productReference = EC6D6A9122A86FF900F21E11 /* SwiftUI-MVVM.app */;
 			productType = "com.apple.product-type.application";
@@ -259,6 +279,10 @@
 				Base,
 			);
 			mainGroup = EC6D6A8822A86FF900F21E11;
+			packageReferences = (
+				E28413E82923294700E2D744 /* XCRemoteSwiftPackageReference "FASwiftUI" */,
+				E2E3B0A7292339DD00BA53FC /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */,
+			);
 			productRefGroup = EC6D6A9222A86FF900F21E11 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -274,7 +298,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC6D6AA122A8700500F21E11 /* LaunchScreen.storyboard in Resources */,
 				EC6D6A9E22A8700500F21E11 /* Preview Assets.xcassets in Resources */,
 				EC6D6A9B22A8700500F21E11 /* Assets.xcassets in Resources */,
 			);
@@ -296,16 +319,21 @@
 			files = (
 				ECC7A44C22B690F800C82053 /* UnidirectionalDataFlowType.swift in Sources */,
 				EC7603AE22AC93DD00E8849D /* TrackerService.swift in Sources */,
+				E2DD2E2C29210E38007D1DC2 /* MenuSplashView.swift in Sources */,
 				EC6D6AC522A88E1500F21E11 /* RepositoryListView.swift in Sources */,
+				E28413E729228B2300E2D744 /* LoginSplashView.swift in Sources */,
 				EC6D6AC122A87BB100F21E11 /* Repository.swift in Sources */,
 				EC6D6ABF22A87B8B00F21E11 /* SearchRepositoryResponse.swift in Sources */,
 				EC6D6A9522A86FF900F21E11 /* AppDelegate.swift in Sources */,
 				EC6D6A9722A86FF900F21E11 /* SceneDelegate.swift in Sources */,
 				EC6D6ACF22A8962100F21E11 /* RepositoryDetailViewModel.swift in Sources */,
 				EC7603B422ADD6FD00E8849D /* SearchRepositoryRequest.swift in Sources */,
+				E2DD2E282920DEE3007D1DC2 /* SecondSplashView.swift in Sources */,
 				EC6D6ACB22A8910600F21E11 /* User.swift in Sources */,
+				E2DD2E26291F823F007D1DC2 /* FirstSplashView.swift in Sources */,
 				EC4F04DF22AA3C170086819B /* APIServiceError.swift in Sources */,
 				EC7603B222ACA26B00E8849D /* ExperimentService.swift in Sources */,
+				E2E3B0AB29235F2E00BA53FC /* RegisterSplashView.swift in Sources */,
 				EC6D6ACD22A8930B00F21E11 /* RepositoryDetailView.swift in Sources */,
 				EC6D6AC922A88E9000F21E11 /* RepositoryListRow.swift in Sources */,
 				EC4F04DD22AA3BFD0086819B /* APIService.swift in Sources */,
@@ -335,17 +363,6 @@
 			targetProxy = EC6D6AA822A8700500F21E11 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		EC6D6A9F22A8700500F21E11 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EC6D6AA022A8700500F21E11 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EC6D6AAE22A8700500F21E11 /* Debug */ = {
@@ -575,6 +592,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E28413E82923294700E2D744 /* XCRemoteSwiftPackageReference "FASwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mattmaddux/FASwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		E2E3B0A7292339DD00BA53FC /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/huybuidac/SwiftUIFontIcon";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E28413E92923294700E2D744 /* FASwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E28413E82923294700E2D744 /* XCRemoteSwiftPackageReference "FASwiftUI" */;
+			productName = FASwiftUI;
+		};
+		E2E3B0A8292339DD00BA53FC /* SwiftUIFontIcon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E2E3B0A7292339DD00BA53FC /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */;
+			productName = SwiftUIFontIcon;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EC6D6A8922A86FF900F21E11 /* Project object */;
 }
